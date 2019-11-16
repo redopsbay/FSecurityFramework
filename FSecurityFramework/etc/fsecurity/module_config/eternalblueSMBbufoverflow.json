@@ -1,0 +1,13 @@
+{
+	"metasploit_password": "admin",
+	"metasploit_server_port": "55553",
+	"metasploit_server_host": "127.0.0.1",
+	"TARGET_IP": "127.0.0.1",
+	"TARGET_PORT": "445",
+	"Payload": "exploit/windows/smb/ms17_010_eternalblue",
+	"SMBDomain": "",
+	"SMBPass": "",
+	"SMBUser": "",
+	"VERIFY_ARCH": "true",
+	"VERIFY_TARGET": "true"
+}

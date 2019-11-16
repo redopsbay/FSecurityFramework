@@ -1,0 +1,9 @@
+ {
+	"metasploit_password": "admin",
+	"metasploit_server_port": "55553",
+	"metasploit_server_host": "127.0.0.1",
+	"Payload": "exploit/windows/fileformat/adobe_pdf_embedded_exe",
+	"EXE_FILE_TO_BE_EMBED": "AdobeUpdate.exe",
+	"OUTPUT_FILENAME_PDF": "AdobeReaderUpdate.pdf",
+	"INPUT_FILENAME_PDF_FILE": "~/Desktop/AdobeUpdate.pdf"
+}

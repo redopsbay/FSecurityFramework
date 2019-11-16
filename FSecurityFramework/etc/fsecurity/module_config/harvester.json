@@ -1,0 +1,6 @@
+{
+    "HOST": "google.com",
+    "LIMIT": "500",
+    "RESULT": "Email-harvested-result.html",
+    "OUTPUT_DIRECTORY": "~/Desktop"
+}
