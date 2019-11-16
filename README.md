@@ -5,7 +5,7 @@
     Just study the built-in dynamic modules in able to understand how to interact with the command listener. I didn't follow any python standard syntax. Coz this is just my thesis and i have to do the work done in just 2 weeks. Below is the installation instruction.
 
 ## TESTED? ##
-    This was only tested on Linux Mint 19. If you are having a trouble for installing metasploit-framework
+    This was only tested on Linux Mint 19. If you are having a trouble for installing metasploit-framework download the katoolin-master project by searching it on google. Then find the installation instruction. Then install armitage on katoolin-master options
 
 
 # INSTALLATION INSTRUCTION #
