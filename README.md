@@ -1,5 +1,4 @@
 # About the Framework #
-
     The FSecurityFramework is highly based on qt5 and pymetasploit3.
     It is use for penetration and testing. Most created malware will be undetectable in old AV's or new AV's. Because the shellcode instruction is encrypted and iterated.
     You can add script by meeting the requirements. by having a dynamic function name like 'commandlistener', 'setupParam' and also 'run' function names.
@@ -10,21 +9,20 @@
 
 
 # INSTALLATION INSTRUCTION #
-
     go to the FSecurity directory and find the install.sh. then open the terminal and type the following:
 
-        <pre><code> user# ./install.sh </code></pre>
+        user# ./install.sh
 
     After you install the necessary packages. You need to type the following into the terminal.
 
-    <pre><code>
+   
         user# mysql -u root -p 
         mysql > CREATE USER 'fsecurity'@'localhost' IDENTIFIED BY '@dm!n!$tr@t0R_F$3cur!tyFr@mw0rk';
         mysql > GRANT ALL ON *.* 'fsecurity'@'localhost';
-    </code></pre>
+   
 
     The database configuration can be found at FSecurityFramework/etc/fsecurity/DatabaseServer.json.
-    <pre><code>
+    
     {
         "host": "127.0.0.1",
         "user": "fsecurity",  /* you can change the user if there is no registered user in the database. like "root". */
@@ -33,14 +31,10 @@
         "port": 3306,
         "pool_size": 10
     }
-    </code></pre>
 
 
 ## Starting Up ##
-    
     To start the FSecurityFramework just type the following commands.
-    <pre><code>
         root:/home/user/Desktop/FSecurity# ./launch_msf_daemon.sh
         root:/home/user/Desktop/FSecurity# cd FSecurityFramework
         root:/home/user/Desktop/FSecurity/FSecurityFramework# python3 main.py -style plastique
-    </code></pre>
