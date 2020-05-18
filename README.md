@@ -21,6 +21,7 @@ user# ./install.sh
 user# mysql -u root -p 
 mysql > CREATE USER 'fsecurity'@'localhost' IDENTIFIED BY '@dm!n!$tr@t0R_F$3cur!tyFr@mw0rk';
 mysql > GRANT ALL ON *.* 'fsecurity'@'localhost';
+mysql > FLUSH PRIVILEGES;
 ```
 
 The database configuration can be found at FSecurityFramework/etc/fsecurity/DatabaseServer.json.
@@ -31,7 +32,7 @@ The database configuration can be found at FSecurityFramework/etc/fsecurity/Data
    "password": "QGRtIW4hJHRyQHQwUl9GJDNjdXIhdHlGckBtdzByaw==", /* change this value with your encrypted mysql database password. The unencrypted password will be @dm!n!$tr@t0R_F$3cur!tyFr@mw0rk */
    "database": "FSecurityFramework",
    "port": 3306,
-   "pool_size": 10
+   "pool_size": 15
 }
 ```
 
